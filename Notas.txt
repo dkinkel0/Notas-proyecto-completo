@@ -2,4 +2,19 @@ node --version
 npm --version
 npm install -g @angular/cli
 sudo npm install -g @angular/cli
-ng new personafront
+ng new personafront // creacion de proyecto
+
+ng serve --open //inicializar el servidor
+
+ng g s services/paises/paises
+ng: comando para consola referido a Angular 
+g: generated
+S: services 
+
+
+
+//para identar 
+ctrl + k y luego ctrl + f --> dar formato o identar 
+                 ctrl + c --> comentar varias lineas
+                 
+                 

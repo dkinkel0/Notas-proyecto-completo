@@ -9,7 +9,7 @@ ng serve --open //inicializar el servidor
 ng g s services/paises/paises
 ng: comando para consola referido a Angular 
 g: generated
-S: services 
+s: services, c: component
 
 
 
@@ -17,4 +17,41 @@ S: services
 ctrl + k y luego ctrl + f --> dar formato o identar 
                  ctrl + c --> comentar varias lineas
                  
-                 
+
+Para usar bootstrap agregar en angular.json 
+
+        "styles": [
+          "src/styles.css",
+          "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ],
+
+
+
+se inyecta en index.html la etiqeta  <app-root></app-root>
+
+servicios para consumir el backend
+tenemos la misma cantidad de servicios que en la clase rest
+
+
+Agregar explicacion en:
+app.component.ts
+app.component.html
+paises.services.ts
+app.config.ts
+app.component.html
+
+
+en eclipse en la aplicacion PersonaBackendApplication
+ "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource"
+ para solucionar esto agergar en este archivo
+
+
+
+app.config.ts ahora en este archivo tenemos para importar5 de manera global las cosas, antes se usaba app.module.ts
+
+

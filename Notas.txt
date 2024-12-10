@@ -1,7 +1,7 @@
-node --version
-npm --version
+node --version      (v22.11.0)
+npm --version       (10.9.0)
 npm install -g @angular/cli
-sudo npm install -g @angular/cli
+sudo npm install -g @angular/clinpm --version
 ng new personafront // creacion de proyecto
 
 ng serve --open //inicializar el servidor
@@ -44,7 +44,7 @@ app.component.html
 paises.services.ts
 app.config.ts
 app.component.html
-
+estados.services.ts
 
 en eclipse en la aplicacion PersonaBackendApplication
  "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource"
@@ -55,3 +55,4 @@ en eclipse en la aplicacion PersonaBackendApplication
 app.config.ts ahora en este archivo tenemos para importar5 de manera global las cosas, antes se usaba app.module.ts
 
 
+d
